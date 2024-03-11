@@ -12,7 +12,7 @@ class FoxProvider extends ChangeNotifier {
 
   late Fox _fox;
   late State _state;
-  String _message = '';
+  String _message = 'Test';
 
   String get message => _message;
   State get state => _state;
